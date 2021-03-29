@@ -1,0 +1,16 @@
+{
+  "name": "svelte-esbuild-minimal",
+  "version": "0.0.1",
+  "description": "Minimal project template for svelte with esbuild.",
+  "main": "src/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "chokidar": "^3.5.1",
+    "esbuild": "^0.10.2",
+    "esbuild-svelte": "^0.4.3",
+    "svelte": "^3.35.0"
+  },
+  "scripts": {
+    "build": "node build.js"
+  }
+}
